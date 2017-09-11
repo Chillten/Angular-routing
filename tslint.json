@@ -1,8 +1,10 @@
 {
+  "extends": "tslint-config-airbnb",
   "rulesDirectory": [
     "node_modules/codelyzer"
   ],
   "rules": {
+    "trailing-comma": [false],
     "callable-types": true,
     "class-name": true,
     "comment-format": [
@@ -26,9 +28,7 @@
     ],
     "member-access": false,
     "member-ordering": [
-      true,
-      "static-before-instance",
-      "variables-before-functions"
+      true
     ],
     "no-arg": true,
     "no-bitwise": true,
@@ -69,9 +69,6 @@
       "single"
     ],
     "radix": true,
-    "semicolon": [
-      "always"
-    ],
     "triple-equals": [
       true,
       "allow-null-check"
