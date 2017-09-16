@@ -47,6 +47,7 @@
     "tslint": "^5.7.0",
     "tslint-config": "0.0.1",
     "tslint-config-airbnb": "^5.2.1",
-    "typescript": "^2.5.2"
+    "typescript": "^2.5.2",
+    "webpack": "^3.5.6"
   }
 }
